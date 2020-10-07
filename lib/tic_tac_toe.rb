@@ -107,8 +107,8 @@ end
   end
 
   def winner
-  if won?
-    puts @winner
+    if won?
+      puts @winner
   end
 
   def play
