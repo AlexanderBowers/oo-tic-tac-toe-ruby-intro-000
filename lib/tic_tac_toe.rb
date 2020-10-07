@@ -79,7 +79,6 @@ end
       @board[match[0]] == @board[match[1]] &&
       @board[match[1]] == @board[match[2]] &&
      position_taken?(match[0])
-     @winner = current_player
     end
 
   end
@@ -108,8 +107,7 @@ end
 
   def winner
     if won?
-      puts @winner
-    end
+      puts @board[match]
   end
 
   def play
