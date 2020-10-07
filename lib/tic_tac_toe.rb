@@ -105,8 +105,9 @@ end
     end
   end
 
-  def winner
+  def winner(player)
   won?
+
 end
 
   def play
