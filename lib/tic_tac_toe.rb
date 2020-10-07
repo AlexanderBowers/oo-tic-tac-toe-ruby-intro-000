@@ -108,6 +108,7 @@ end
   def winner
     if won?
       puts @board[match]
+    end
   end
 
   def play
