@@ -107,10 +107,8 @@ end
   end
 
   def winner
-    winner = current_player
-    if won?
-      puts winner
-    end
+  if won?
+    puts @winner
   end
 
   def play
