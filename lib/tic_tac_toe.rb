@@ -78,7 +78,7 @@ end
     WIN_COMBINATIONS.find do |match|
       @board[match[0]] == @board[match[1]] &&
       @board[match[1]] == @board[match[2]] &&
-      return position_taken?(match[0])
+     position_taken?(match[0])
     end
 
   end
