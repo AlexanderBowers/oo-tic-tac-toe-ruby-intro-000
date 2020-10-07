@@ -105,7 +105,7 @@ end
     end
   end
 
-  def winner
+  def winner(match)
     if won?
       puts @board[match]
     end
