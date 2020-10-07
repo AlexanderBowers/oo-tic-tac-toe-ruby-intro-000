@@ -106,10 +106,10 @@ end
   end
 
   def winner
-  if won?
-    puts current_player
-
-end
+    if won?
+      puts current_player
+    end
+  end
 
   def play
     until over?
