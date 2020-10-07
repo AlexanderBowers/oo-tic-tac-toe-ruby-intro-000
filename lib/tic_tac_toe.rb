@@ -106,10 +106,7 @@ end
   end
 
   def winner
-  if won?
-    #no iterations here
-    return @match
-  end
+  won?
 end
 
   def play
