@@ -107,7 +107,7 @@ end
 
   def winner
     if won?
-      if turn_count % 2 == 0
+      if turn_count % 2 != 0
         return "X"
       else
         return "O"
