@@ -105,9 +105,9 @@ end
     end
   end
 
-  def winner(match)
+  def winner
     if won?
-      puts @board[match]
+      puts current_player
     end
   end
 
