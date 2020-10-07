@@ -105,8 +105,9 @@ end
     end
   end
 
-  def winner(player)
-  won?
+  def winner
+  if won?
+    puts current_player
 
 end
 
